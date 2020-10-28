@@ -50,7 +50,7 @@ const Projects = () => {
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
-                        target="_blank"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
@@ -60,7 +60,7 @@ const Projects = () => {
 
                       {repo && (
                         <a
-                          target="_blank"
+                          // target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
                           href={repo}
@@ -82,7 +82,7 @@ const Projects = () => {
                     <div className="project-wrapper__image">
                       <a
                         href={url || '#!'}
-                        target="_blank"
+                        // target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >

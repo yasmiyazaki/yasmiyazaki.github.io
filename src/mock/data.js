@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'For the past seven years, I have been transforming routine tasks into meaningful activities.',
   paragraphTwo:
-    'I started my career in business process reengineering and enterprise system implementation. Now, I am a software engineer building online travel services that international tourists can explore the beauty of Japan',
+    'I started my career in business process reengineering and enterprise system implementation. Now, I am a software engineer building online travel services where international tourists can explore the beauty of Japan',
   paragraphThree:
     'What is common is I eliminate inefficiency and help users focus what matters the most.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -42,10 +42,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'foodget.png',
     title: 'Grocery Shopping',
-    info: 'UX Research, UX Design, Prototyping, Web Development',
+    info: 'Prototyping, Web Development',
     info2: '',
     url: 'foodget',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

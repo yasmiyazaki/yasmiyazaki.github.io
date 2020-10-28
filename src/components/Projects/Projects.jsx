@@ -21,7 +21,7 @@ const Projects = () => {
       setIsDesktop(false);
     }
   }, []);
-
+  console.log(projects);
   return (
     <section id="projects">
       <Container>
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        Detail
                       </a>
 
                       {repo && (

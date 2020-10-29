@@ -32,7 +32,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'kaimono.png',
-    title: 'Online Tex Free Shopping',
+    title: 'Online Tax Free Shopping',
     info: 'UX Research, UX Design',
     info2: '',
     url: 'kaimono',
@@ -42,7 +42,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'foodget.png',
     title: 'Grocery Shopping',
-    info: 'Prototyping, Web Development',
+    info: 'Prototyping, Web Development, UI/UX Design',
     info2: '',
     url: 'foodget',
     repo: '', // if no repo, the button will not show up
@@ -51,7 +51,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'boogiewoogie.png',
     title: 'Motion Tracking Dance Practice App',
-    info: 'Web Development',
+    info: 'Ideation, Web Development',
     info2: '',
     url: '',
     repo: 'https://github.com/crazy-bananas/boogie-woogie', // if no repo, the button will not show up

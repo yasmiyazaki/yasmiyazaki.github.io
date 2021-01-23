@@ -21,7 +21,6 @@ const Projects = () => {
       setIsDesktop(false);
     }
   }, []);
-  console.log(projects);
   return (
     <section id="projects">
       <Container>

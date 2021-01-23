@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Yasu', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Yasu',
+  lang: '',
+  description: '',
 };
 
 // HERO DATA
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'For the past seven years, I have been transforming routine tasks into meaningful activities.',
+    'For the past seven years, I have been transforming mundane tasks into meaningful activities.',
   paragraphTwo:
     'I started my career in business process reengineering and enterprise system implementation. Now, I am a software engineer building online travel services where international tourists can explore the beauty of Japan',
   paragraphThree:
@@ -29,19 +29,19 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'kaimono.png',
-    title: 'Online Tax Free Shopping',
-    info: 'UX Research, UX Design',
-    info2: '',
-    url: 'kaimono',
-    repo: '', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'kaimono.png',
+  //   title: 'Online Tax Free Shopping',
+  //   info: 'UX Research, UX Design',
+  //   info2: '',
+  //   url: 'kaimono',
+  //   repo: '', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: 'foodget.png',
-    title: 'Grocery Shopping',
+    title: 'Online Grocery Shopping',
     info: 'Prototyping, Web Development, UI/UX Design',
     info2: '',
     url: 'foodget',

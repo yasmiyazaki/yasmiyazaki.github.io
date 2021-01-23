@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../components/Title/Title';
 import ProjectImg from '../components/Image/ProjectImg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Foodget = () => {
   const [isDesktop, setIsDesktop] = useState(false);

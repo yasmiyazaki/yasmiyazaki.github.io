@@ -19,12 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'For the past seven years, I have been transforming mundane tasks into meaningful activities.',
+    'For the past seven years, I have been transforming mundane tasks into meaningful ones.',
   paragraphTwo:
-    'I started my career in business process reengineering and enterprise system implementation. Now, I am a software engineer building online travel services where international tourists can explore the beauty of Japan',
-  paragraphThree:
-    'What is common is I eliminate inefficiency and help users focus what matters the most.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+    "After a creer transition from business process transformation and enterprise system implementation, I am a software engineer developing an online travel platform where international tourists can explore the Japan's beauty",
+  paragraphThree: 'I work at the intersection of technology and business.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -53,7 +52,7 @@ export const projectsData = [
     title: 'Motion Tracking Dance Practice App',
     info: 'Ideation, Web Development',
     info2: '',
-    url: '',
+    url: 'boogiewoogie',
     repo: 'https://github.com/crazy-bananas/boogie-woogie', // if no repo, the button will not show up
   },
 ];

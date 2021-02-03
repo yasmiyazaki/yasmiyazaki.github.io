@@ -53,7 +53,7 @@ export const projectsData = [
     info: 'Ideation, Web Development',
     info2: '',
     url: 'boogiewoogie',
-    repo: 'https://github.com/crazy-bananas/boogie-woogie', // if no repo, the button will not show up
+    // repo: 'https://github.com/crazy-bananas/boogie-woogie', // if no repo, the button will not show up
   },
 ];
 

@@ -29,11 +29,11 @@ const Foodget = () => {
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
                 <div className="about-wrapper__info">
                   <p className="about-wrapper__info-text">
-                    Due to COVID-19, my family started to shop groceries online in Tokyo. However,
-                    it resulted in a painful daily routine as the most of them lacked key
-                    functionality and usability. From the frustration, I have listed issues in these
-                    services, and then designed a prototype to make new service that makes grocery
-                    shopping much more convenient.
+                    Due to COVID-19, my family started to buy groceries online in Tokyo. However, it
+                    became a painful daily routine as most of services lacked key functionality and
+                    usability. From the frustration, I have listed issues in these services, and
+                    then designed a prototype to make a new service that makes grocery shopping much
+                    more convenient.
                   </p>
                   <p className="about-wrapper__info-text">
                     This was a personal project from April to August 2020.
@@ -54,9 +54,9 @@ const Foodget = () => {
               </div>
               <div>
                 <p>
-                  I have built a shopping list web app that lists available groceries, scraped from
-                  user’s nearby online supermarkets, which decreases a great amount of time to buy
-                  food online.
+                  I have built a shopping list web app that lists available groceries scraped from
+                  user’s nearby online supermarkets to decrease a great amount of time to buy food
+                  online.
                 </p>
                 <ProjectImg alt="foodget picture" filename="foodget/overview.png" />
               </div>
@@ -72,8 +72,8 @@ const Foodget = () => {
               <div>
                 <p>
                   To understand what steps are usually taken to buy groceries online, firstly I have
-                  written all activities and associated emotions to complete the process, and then
-                  listed all major steps necessary.
+                  organized all activities and associated emotions to complete the process, and then
+                  listed all main steps necessary.
                 </p>
                 <ol className="content-wrapper__list">
                   <li>Create a meal plan</li>
@@ -100,13 +100,13 @@ const Foodget = () => {
                 <p>
                   After trying three existing services and interviewing three users, I have
                   identified four key elements that prevented users from completing the transaction.
-                  Eliminating or improving these would decrease an idle time and gives users the
-                  reason to use the service again and again.
+                  Eliminating or improving these decreases an idle time and gives users the reason
+                  to use the service again and again.
                 </p>
                 <ol className="content-wrapper__list">
                   <li>Too many page transitions and slow loading</li>
                   <li>
-                    Inconsistent item listing such as not sorted by weights, prices and similarity
+                    Inconsistent item listing such as not sorted by weights, prices or similarity
                   </li>
                   <li>Insufficient search capability</li>
                   <li>Limited delivery options</li>
@@ -114,7 +114,7 @@ const Foodget = () => {
                 <p>
                   In addition to above elements, the fact that online grocery sites lacking enough
                   variations of items forced users to use multiple services. It is the critical
-                  issue since most people don’t shop at several supermarkets when shopping offline.
+                  issue since most people don’t shop at multiple supermarkets when shopping offline.
                 </p>
               </div>
             </div>
@@ -125,22 +125,24 @@ const Foodget = () => {
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
             <div className="content-wrapper__text">
-              <div className="content-wrapper__text-title">
-                Solution Ideation: Data, Design and Speed
-              </div>
+              <div className="content-wrapper__text-title">Solution Ideation:</div>
+              <div className="content-wrapper__text-title">Data, Design and Speed</div>
               <div>
+                <p>Data</p>
                 <p>
-                  Data: A new service manages all supermarkets and their merchandise data which are
-                  available at user’s location so that users no longer need to access services
-                  separately.
+                  The new service manages all supermarkets and their merchandise data which are
+                  available at user’s location so that users no longer need to access multiple
+                  services separately.
                 </p>
+                <p>Design</p>
                 <p>
-                  Design: Displaying all items in a sorted order and same layouts helps users to
-                  make decisions easily on which to choose.
+                  Displaying all items in a sorted order and same layouts helps users to make
+                  decisions easily on which to purchase.
                 </p>
+                <p>Speed</p>
                 <p>
-                  Speed: Developing a static website so that limiting access to a server enables
-                  much faster and smooth transitions.
+                  Developing a static website to limit access to a server enables much faster and
+                  smooth transitions.
                 </p>
               </div>
 
@@ -153,9 +155,12 @@ const Foodget = () => {
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
             <div className="content-wrapper__text">
-              <div className="content-wrapper__text-title">Sketch</div>
               <div>
                 <div className="content-wrapper__text-subtitle">Wireframes</div>
+                <p>
+                  Firstly, I drew wireframes and defined key functionalities that are necessary for
+                  users to complete the shopping.
+                </p>
                 <ProjectImg alt="foodget picture" filename="foodget/wireframes.jpg" />
                 <div className="content-wrapper__text-subtitle">
                   Flow of registering postal code to completing purchasing

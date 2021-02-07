@@ -88,11 +88,21 @@ const Boogiewoogie = () => {
               src={poseEst}
               className="content-wrapper__image"
             />
+            <div>
+              (
+              <a href="https://www.tensorflow.org/lite/models/pose_estimation/overview">
+                link to Posenet
+              </a>
+              )
+            </div>
             <p>
-              Pose estimation refers to computer vision techniques that detect human figures in
-              images and videos, so that one could determine, for example, where someone’s elbow
-              shows up in an image.
-              <a href="https://www.tensorflow.org/lite/models/pose_estimation/overview">link</a>
+              <blockquote cite="https://www.tensorflow.org/lite/models/pose_estimation/overview">
+                <i>
+                  Pose estimation refers to computer vision techniques that detect human figures in
+                  images and videos, so that one could determine, for example, where someone’s elbow
+                  shows up in an image.
+                </i>
+              </blockquote>
             </p>
           </Fade>
         </Col>
@@ -137,8 +147,9 @@ const Boogiewoogie = () => {
                 This feature allows users to follow recorded moves and get scored. We used 11 body
                 parts, face(nose), arms(elbow, shoulder, wrist) and legs (ankle, knee) to calculate
                 how many times users could match their body with the screen. Since users might stand
-                differently such as distance, angle and position from the screen, we implemented the
-                synchronize standing position to start the dance.
+                differently, it was necessary to adjust distance, angle and position from the
+                screen. To do so, we implemented first standing position to synchronize system and
+                user&apos;s body and start the dance.
               </p>
             </div>
             <ProjectImg alt="boogiewoogie picture" filename="boogie-woogie/demo_play.png" />

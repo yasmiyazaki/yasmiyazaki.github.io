@@ -21,8 +21,9 @@ export const aboutData = {
   paragraphOne:
     'For the past seven years, I have been transforming mundane tasks into meaningful ones.',
   paragraphTwo:
-    "After a creer transition from business process transformation and enterprise system implementation, I am a software engineer developing an online travel platform where international tourists can explore the Japan's beauty",
-  paragraphThree: 'I work at the intersection of technology and business.',
+    'After a creer transition from business and IT consulting, I became a software engineer.',
+  paragraphThree:
+    'I am creating a travel platform where people can explore Japan’s beauty from their home country',
   resume: '', // if no resume, the button will not show up
 };
 

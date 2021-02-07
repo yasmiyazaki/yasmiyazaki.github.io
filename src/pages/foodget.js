@@ -58,7 +58,7 @@ const Foodget = () => {
                   user’s nearby online supermarkets, which decreases a great amount of time to buy
                   food online.
                 </p>
-                <ProjectImg alt="foodget picture" filename="foodget/overview.jpg" />
+                <ProjectImg alt="foodget picture" filename="foodget/overview.png" />
               </div>
             </div>
           </Fade>
@@ -75,17 +75,17 @@ const Foodget = () => {
                   written all activities and associated emotions to complete the process, and then
                   listed all major steps necessary.
                 </p>
-                <ul className="content-wrapper__list">
-                  <li>Plan what to cook</li>
+                <ol className="content-wrapper__list">
+                  <li>Create a meal plan</li>
                   <li>Make list of ingredients</li>
-                  <li>Ask family member what they need</li>
-                  <li>Open the service</li>
+                  <li>Ask family if they need somthing</li>
+                  <li>Open an app/website</li>
                   <li>Search groceries(through category/ typing keywords)</li>
                   <li>Add items to cart</li>
                   <li>Select delivery date and time</li>
                   <li>Make a payment</li>
                   <li>Receive the order</li>
-                </ul>
+                </ol>
               </div>
             </div>
           </Fade>
@@ -103,14 +103,14 @@ const Foodget = () => {
                   Eliminating or improving these would decrease an idle time and gives users the
                   reason to use the service again and again.
                 </p>
-                <ul className="content-wrapper__list">
+                <ol className="content-wrapper__list">
                   <li>Too many page transitions and slow loading</li>
                   <li>
                     Inconsistent item listing such as not sorted by weights, prices and similarity
                   </li>
                   <li>Insufficient search capability</li>
                   <li>Limited delivery options</li>
-                </ul>
+                </ol>
                 <p>
                   In addition to above elements, the fact that online grocery sites lacking enough
                   variations of items forced users to use multiple services. It is the critical
@@ -155,10 +155,10 @@ const Foodget = () => {
             <div className="content-wrapper__text">
               <div className="content-wrapper__text-title">Sketch</div>
               <div>
-                <div className="content-wrapper__text-subtitle">wireframes</div>
+                <div className="content-wrapper__text-subtitle">Wireframes</div>
                 <ProjectImg alt="foodget picture" filename="foodget/wireframes.jpg" />
                 <div className="content-wrapper__text-subtitle">
-                  flow of registering postal code to completing purchasing
+                  Flow of registering postal code to completing purchasing
                 </div>
                 <ProjectImg alt="foodget picture" filename="foodget/wireframes_flow.jpg" />
               </div>
@@ -172,13 +172,13 @@ const Foodget = () => {
             <div className="content-wrapper__text">
               <div className="content-wrapper__text-title">Prototyping</div>
               <div>
-                <div className="content-wrapper__text-subtitle">main page</div>
+                <div className="content-wrapper__text-subtitle">Main page</div>
                 <ProjectImg alt="foodget picture" filename="foodget/prototype_main_page.jpg" />
-                <div className="content-wrapper__text-subtitle">item detail</div>
+                <div className="content-wrapper__text-subtitle">Item detail</div>
                 <ProjectImg alt="foodget picture" filename="foodget/prototype_item_detail.jpg" />
-                <div className="content-wrapper__text-subtitle">search</div>
+                <div className="content-wrapper__text-subtitle">Search</div>
                 <ProjectImg alt="foodget picture" filename="foodget/prototype_search.jpg" />
-                <div className="content-wrapper__text-subtitle">delivery options</div>
+                <div className="content-wrapper__text-subtitle">Delivery options</div>
                 <ProjectImg
                   alt="foodget picture"
                   filename="foodget/prototype_delivery_options.jpg"
@@ -196,6 +196,12 @@ const Foodget = () => {
             <div className="content-wrapper__text">
               <div className="content-wrapper__text-title">Summary</div>
               <ProjectImg alt="foodget picture" filename="foodget/summary.jpg" />
+            </div>
+            <div className="content-wrapper__text-title">Service</div>
+            <div>
+              <a href="https://foodget.app" target="_blank" rel="noreferrer">
+                foodget.app
+              </a>
             </div>
           </Fade>
         </Col>

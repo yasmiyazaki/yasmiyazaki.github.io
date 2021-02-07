@@ -21,7 +21,7 @@ const Boogiewoogie = () => {
   }, []);
 
   return (
-    <div>
+    <div id="project_detail">
       <section id="about">
         <Container>
           <Title title="Motion Tracking Dance Practice App" />
@@ -49,8 +49,8 @@ const Boogiewoogie = () => {
       <section id="project-plan">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Project Schedule</h3>
+            <div className="content-wrapper__text">
+              <h3 className="content-wrapper__text-title">Project Schedule</h3>
               <ProjectImg alt="boogiewoogie picture" filename="boogie-woogie/project_plan.png" />
             </div>
           </Fade>
@@ -59,8 +59,8 @@ const Boogiewoogie = () => {
       <section id="ideation">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Ideation</h3>
+            <div className="content-wrapper__text">
+              <h3 className="content-wrapper__text-title">Ideation</h3>
               <p>
                 As one of my interests was learning how to apply machine learning to web
                 application, we brainstormed ideas using mind map and searched for
@@ -78,8 +78,8 @@ const Boogiewoogie = () => {
       <section id="tensorflow">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Tensorflow.js and Posenet</h3>
+            <div className="content-wrapper__text">
+              <h3 className="content-wrapper__text-title">Tensorflow.js and Posenet</h3>
             </div>
             <img alt="Credit: Tensorflow Pose Estimation" src={poseEst} />
             <p>
@@ -94,8 +94,8 @@ const Boogiewoogie = () => {
       <section id="user_attributes">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Defining User Attributes</h3>
+            <div className="content-wrapper__text">
+              <h3 className="content-wrapper__text-title">Defining User Attributes</h3>
               <p>
                 This product was aimed for people who like to dance in a private space such as
                 user&apos;s own room in front of a mirror. It would support them to be able to
@@ -109,8 +109,8 @@ const Boogiewoogie = () => {
       <section id="MVP">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Minimum Viable Product</h3>
+            <div className="content-wrapper__text">
+              <h3 className="content-wrapper__text-title">Minimum Viable Product</h3>
             </div>
             <div>
               <p>Motion Tracking Dance App that scores your moves</p>
@@ -123,8 +123,8 @@ const Boogiewoogie = () => {
       <section id="function_1">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">1. Dance to match recorded moves</h3>
+            <div className="content-wrapper__text">
+              <h3 className="content-wrapper__text-title">1. Dance to match recorded moves</h3>
               <p>
                 This feature allows users to follow recorded moves and get scored. We used 11 body
                 parts, face(nose), arms(elbow, shoulder, wrist) and legs (ankle, knee) to calculate
@@ -141,8 +141,8 @@ const Boogiewoogie = () => {
       <section id="function_2">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">2. Record your own dance routine</h3>
+            <div className="content-wrapper__text">
+              <h3 className="content-wrapper__text-title">2. Record your own dance routine</h3>
               <p>
                 We wanted users to easily record moves, therefore, we used YouTube to play music in
                 background and record corresponding movements.
@@ -163,16 +163,16 @@ const Boogiewoogie = () => {
       </section>
       <section id="technology">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
-          <div className="project-wrapper__text">
-            <h3 className="project-wrapper__text-title">Technology</h3>
+          <div className="content-wrapper__text">
+            <h3 className="content-wrapper__text-title">Technology</h3>
           </div>
           <ProjectImg alt="boogiewoogie picture" filename="boogie-woogie/technology.png" />
         </Col>
       </section>
       <section id="references">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
-          <div className="project-wrapper__text">
-            <div className="project-wrapper__text-title">references</div>
+          <div className="content-wrapper__text">
+            <div className="content-wrapper__text-title">References</div>
           </div>
           <div>
             <a href="https://github.com/crazy-bananas/boogie-woogie">github repository</a>

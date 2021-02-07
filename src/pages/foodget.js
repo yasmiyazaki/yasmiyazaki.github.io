@@ -20,7 +20,7 @@ const Foodget = () => {
   }, []);
 
   return (
-    <div>
+    <div id="project_detail">
       <section id="about">
         <Container>
           <Title title="Online Grocery Shopping" />
@@ -48,10 +48,10 @@ const Foodget = () => {
       <section id="background">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">
+            <div className="content-wrapper__text">
+              <div className="content-wrapper__text-title">
                 <b>Overview</b>
-              </h3>
+              </div>
               <div>
                 <p>
                   I have built a shopping list web app that lists available groceries, scraped from
@@ -67,10 +67,8 @@ const Foodget = () => {
       <section id="background">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">
-                <b>Understanding current process</b>
-              </h3>
+            <div>
+              <div className="content-wrapper__text-title">Understanding current process</div>
               <div>
                 <p>
                   To understand what steps are usually taken to buy groceries online, firstly I have
@@ -96,8 +94,8 @@ const Foodget = () => {
       <section id="key-elements">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Key obstacles for better experience</h3>
+            <div className="content-wrapper__text">
+              <div className="content-wrapper__text-title">Key obstacles for better experience</div>
               <div>
                 <p>
                   After trying three existing services and interviewing three users, I have
@@ -126,10 +124,10 @@ const Foodget = () => {
       <section id="solution">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">
+            <div className="content-wrapper__text">
+              <div className="content-wrapper__text-title">
                 Solution Ideation: Data, Design and Speed
-              </h3>
+              </div>
               <div>
                 <p>
                   Data: A new service manages all supermarkets and their merchandise data which are
@@ -154,12 +152,14 @@ const Foodget = () => {
       <section id="solution-example">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Sketch</h3>
+            <div className="content-wrapper__text">
+              <div className="content-wrapper__text-title">Sketch</div>
               <div>
-                <h4>wireframes</h4>
+                <div className="content-wrapper__text-subtitle">wireframes</div>
                 <ProjectImg alt="foodget picture" filename="foodget/wireframes.jpg" />
-                <h4>flow of registering postal code to completing purchasing</h4>
+                <div className="content-wrapper__text-subtitle">
+                  flow of registering postal code to completing purchasing
+                </div>
                 <ProjectImg alt="foodget picture" filename="foodget/wireframes_flow.jpg" />
               </div>
             </div>
@@ -169,22 +169,22 @@ const Foodget = () => {
       <section id="prototyping">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Prototyping</h3>
+            <div className="content-wrapper__text">
+              <div className="content-wrapper__text-title">Prototyping</div>
               <div>
-                <h4>main page</h4>
+                <div className="content-wrapper__text-subtitle">main page</div>
                 <ProjectImg alt="foodget picture" filename="foodget/prototype_main_page.jpg" />
-                <h4>item detail</h4>
+                <div className="content-wrapper__text-subtitle">item detail</div>
                 <ProjectImg alt="foodget picture" filename="foodget/prototype_item_detail.jpg" />
-                <h4>search</h4>
+                <div className="content-wrapper__text-subtitle">search</div>
                 <ProjectImg alt="foodget picture" filename="foodget/prototype_search.jpg" />
-                <h4>delivery options</h4>
+                <div className="content-wrapper__text-subtitle">delivery options</div>
                 <ProjectImg
                   alt="foodget picture"
                   filename="foodget/prototype_delivery_options.jpg"
                 />
               </div>
-              <h3 className="project-wrapper__text-title">Technology Used</h3>
+              <div className="content-wrapper__text-title">Technology Used</div>
               <ProjectImg alt="foodget picture" filename="foodget/technology_used.jpg" />
             </div>
           </Fade>
@@ -193,8 +193,8 @@ const Foodget = () => {
       <section id="summary">
         <Col md={{ span: 6, offset: 3 }} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Summary</h3>
+            <div className="content-wrapper__text">
+              <div className="content-wrapper__text-title">Summary</div>
               <ProjectImg alt="foodget picture" filename="foodget/summary.jpg" />
             </div>
           </Fade>

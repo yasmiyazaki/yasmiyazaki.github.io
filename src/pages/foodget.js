@@ -75,7 +75,7 @@ const Foodget = () => {
                   written all activities and associated emotions to complete the process, and then
                   listed all major steps necessary.
                 </p>
-                <ul>
+                <ul className="content-wrapper__list">
                   <li>Plan what to cook</li>
                   <li>Make list of ingredients</li>
                   <li>Ask family member what they need</li>
@@ -103,7 +103,7 @@ const Foodget = () => {
                   Eliminating or improving these would decrease an idle time and gives users the
                   reason to use the service again and again.
                 </p>
-                <ul>
+                <ul className="content-wrapper__list">
                   <li>Too many page transitions and slow loading</li>
                   <li>
                     Inconsistent item listing such as not sorted by weights, prices and similarity

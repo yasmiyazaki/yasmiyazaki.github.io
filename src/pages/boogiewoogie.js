@@ -114,8 +114,10 @@ const Boogiewoogie = () => {
             </div>
             <div>
               <p>Motion Tracking Dance App that scores your moves</p>
-              <p>1. Dance to match recorded moves</p>
-              <p>2. Record your own dance routine</p>
+              <ol className="content-wrapper__list">
+                <li>Dance to match recorded moves</li>
+                <li>Record your own dance routine</li>
+              </ol>
             </div>
           </Fade>
         </Col>

@@ -59,6 +59,13 @@
       }
     }
 
+    &__list {
+      text-align: left;
+      display: table;
+      margin: 0 auto;
+      font-size: $default-font-size;
+    }
+
     &__image {
       width: 90%;
       margin: 0 auto;
